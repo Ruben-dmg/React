@@ -132,3 +132,27 @@ p{
 .form-container button:hover {
     background-color: #f18c51;
 }
+
+.marco{
+    display: flex;
+}
+
+.left, .right {
+    flex: 1;
+}
+  
+.left img, .right img {
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin-bottom: 30px;
+}
+  
+.left {
+    margin-left: 190px;
+}
+  
+.right {
+    margin-left: -150px;
+}
+  
