@@ -1,12 +1,90 @@
-.image{
+.container {
     display: grid;
     place-items: center;
+}
+  
+.image {
+    position: relative;
+    display: inline-block;
 }
 
 .info{
     width: 800px;
 }
 
-.info:hover{
-    opacity: 0.6;
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 800px;
+    height: 99.3%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    transition: opacity 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.image:hover .overlay {
+    opacity: 1;
+}
+  
+.text {
+    font-weight: bold;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+    padding: 10px;
+}
+
+section{
+    margin-top: -3.2px;
+    width: 100%;
+    height: 50px;
+    background-color: #ef7f3f;
+    padding: 10px;
+}
+
+.text-2 {
+    display: grid;
+    place-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.parrafo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffedbe;
+}
+
+.p-1{
+    width: 50%;
+    margin-top: 30px;
+}
+
+p{
+    width: 50%;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.p-2{
+    margin-bottom: 30px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    background-color: rgb(142, 81, 40);
+    height: 40px;
+}
+
+.footer-text{
+    font-size: medium;
+    padding-left: 30px ;
+    color: aliceblue;
+ 
 }

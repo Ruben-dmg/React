@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
 nav{
     display: flex;
     height: 60px;
@@ -29,12 +36,12 @@ nav{
   
 .navbar-link{
     text-decoration: none;
-    color: #ef7f3f;
+    color: #ffffff;
     font-weight: bold;
 }
   
 .navbar-link:hover{
-    color: #ffffff;
+    color: #ef7f3f;
 }
 
   
