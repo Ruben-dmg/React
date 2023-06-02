@@ -1,11 +1,12 @@
 import React from 'react';
+import './style.css';
 
 
 function Home() {
   return (
-    <div>
-      <h1>Hola</h1>
-    </div>
+    <div className='image'>
+    <img src="images/info.png" className="info" alt=""/>
+   </div> 
   );
 }
 

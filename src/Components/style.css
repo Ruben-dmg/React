@@ -1,0 +1,12 @@
+.image{
+    display: grid;
+    place-items: center;
+}
+
+.info{
+    width: 800px;
+}
+
+.info:hover{
+    opacity: 0.6;
+}
