@@ -82,9 +82,53 @@ p{
     height: 40px;
 }
 
+.footer-2{
+    display: flex;
+    align-items: center;
+    background-color: rgb(142, 81, 40);
+    height: 40px;
+    margin-top: 250px;
+}
+
 .footer-text{
     font-size: medium;
     padding-left: 30px ;
     color: aliceblue;
  
+}
+
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+  
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 40px;
+}
+  
+.form-container input,
+.form-container textarea,
+.form-container button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+  
+.form-container button {
+    background-color: #ef7f3f;
+    color: white;
+    cursor: pointer;
+  }
+  
+.form-container button:hover {
+    background-color: #f18c51;
 }
